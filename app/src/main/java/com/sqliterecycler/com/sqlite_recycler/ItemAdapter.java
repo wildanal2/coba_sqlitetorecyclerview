@@ -46,7 +46,7 @@ public class ItemAdapter  extends RecyclerView.Adapter<ItemAdapter.ItemsViewHold
         int amount = mCursor.getInt(mCursor.getColumnIndex("jumlah"));
 
         holder.nameText.setText(name);
-        holder.jumlahtext.setText(String.valueOf(amount));
+        holder.jumlahtext.setText(String.valueOf(amount)+"  item");
     }
 
     @Override
